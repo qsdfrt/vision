@@ -1,0 +1,13 @@
+path: /mnt/workspace/Vision/data/yolo_rgb
+train: images/train
+val: images/val
+test: images/test
+tir_root: /mnt/workspace/Vision/data/rgbt_vehicle
+channels: 6
+initial_rgb_weight: 0.25
+names:
+  0: car
+  1: truck
+  2: bus
+  3: van
+  4: freight_car
